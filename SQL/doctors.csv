@@ -1,0 +1,6 @@
+doctor_id,doctor_name,specialization,clinic_id
+1,John Doe,Pediatrics,1
+2,Jane Smith,Dermatology,2
+3,Mark Johnson,Cardiology,1
+4,Emily Brown,Pediatrics,3
+5,Michael Lee,Orthopedics,2

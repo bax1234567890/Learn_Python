@@ -47,3 +47,45 @@ message1 = 'Call me 414-555-1234 if I am at home and call me 323-456-4321 if I a
 
 phoneNumberRegex1 = re.compile(r'\d\d\d-\d\d\d-\d\d\d\d')
 print(phoneNumberRegex1.findall(message1))
+
+
+#___________________________________
+# Parenthesis have a special mining in regular expression, they mark where group begin and end
+# Example 1
+phoneNumberGroup = re.compile(r'(\d\d\d)-(\d\d\d-\d\d\d\d)') # when we want to show Parenthesis
+phoneNumberGroup.search('My number is 435-345-6789')
+mo = phoneNumberGroup.search('My number is 435-345-6789')
+group1 = mo.group(1)
+group2 = mo.group(2)
+print('First group is (' + group1 + '). Second group is (' + group2 + ')')
+
+# Example 2  - parenthesis in searched text using "\"
+phoneNumberGroup2 = re.compile(r'\(\d\d\d\) \d\d\d-\d\d\d\d') #
+mo1 = phoneNumberGroup2.search('My number is (415) 435-3455')
+group3 = mo1.group()
+print('I find number in text with parenthesis' + group3)
+
+
+# Example 3  - parenthesis in searched text using "|"
+batRegex = re.compile(r'Bat(man|mobile|copter|bat)') # find any of that sufixies
+mo = batRegex.search('Batmobile lost a wheel')
+group4 = mo.group()
+print('We found (' + group4 + ') in text')
+
+
+# Example 4  - parenthesis in searched text using or "|" and show first sufix
+batRegex = re.compile(r'Bat(man|mobile|copter|bat)')
+mo = batRegex.search('Batmobile lost a wheel')
+group4 = mo.group(1) # find first sufix
+print('We found (' + group4 + ') in text')
+
+
+# Example 5
+batRegex = re.compile(r'Bat(man|mobile|copter|bat)')
+mo = batRegex.search('Batmobile lost a wheel')
+group4 = mo.group(1) # find first sufix
+print('We found (' + group4 + ') in text')
+
+
+
+
