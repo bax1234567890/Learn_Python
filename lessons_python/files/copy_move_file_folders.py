@@ -1,7 +1,7 @@
 import shutil
 
 # Copy file to another folder
-# shutil.copy('/Users/ionbota/Documents/spam.txt', '/Users/ionbota/Documents')
+shutil.copy('/Users/ionbota/Documents/spam.txt', '/Users/ionbota/Documents')
 
 # Copy + Rename
 shutil.copy('/Users/ionbota/Documents/spam.txt', '/Users/ionbota/Downloads/spamspamspam.txt')
