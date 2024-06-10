@@ -48,16 +48,28 @@ mop7 = mo7.group()
 print(mop7)
 
 # Find multiple numbers
-phoneRegex = re.compile(r'((\d\d\d-)?\d\d\d-\d\d\d\d(,)?){3}') #? mean zero or 1 time
-mo8 = phoneRegex.search('My numbers are 415-333-4456, 345-5423, 123-457-8954')
-mop8 = mo8.group()
-print(mop8)
+phoneRegex = re.compile(r'((\d{3}-)?\d{3}-\d{4}(, )?){3}')  # {3} means exactly 3 occurrences
+# Sample text containing phone numbers
+text = 'My numbers are 415-333-4456, 345-5423, 123-457-8954'
+# Search for matches in the text
+mo8 = phoneRegex.search(text)
+# Check if a match was found and print it
+if mo8:
+    mop8 = mo8.group()
+    print(mop8)
+else:
+    print("No match found")
 
 
-digiRegex = re.compile(r'(\d){3,5})') # show biggest possible value "12345"
+digiRegex = re.compile(r'\d{3,5}') # show biggest possible value "12345"
 digiRegex.search('1234567890')
 
-digiRegex = re.compile(r'(\d){3,5}?)') # show smollest possible value "12345"
-digiRegex.search('1234567890')
-di = digiRegex
-print(di)
+# Regular expression to match a sequence of digits with length between 3 and 5
+digiRegex = re.compile(r'\d{3,5}?')
+# Search for the first match in the text
+mo = digiRegex.search('1234567890')
+# Check if a match was found and print it
+if mo:
+    print(mo.group())
+else:
+    print("No match found")

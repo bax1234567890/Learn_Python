@@ -1,0 +1,842 @@
+Traceback (most recent call last):
+  File "/Users/ionbota/PycharmProjects/Learn_Python/lessons_python/webbrowsing/webbrowse_module.py", line 1, in <module>
+    import webbrowser, sys, pyperclip
+ModuleNotFoundError: No module named 'pyperclip'
+Running /Users/ionbota/PycharmProjects/Learn_Python/lessons_python/webbrowsing/webbrowse_module.py
+Traceback (most recent call last):
+  File "/Users/ionbota/PycharmProjects/Learn_Python/lessons_python/webbrowsing/run_all_scripts.py", line 14, in <module>
+    subprocess.run(['python3', filepath], check=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['python3', '/Users/ionbota/PycharmProjects/Learn_Python/lessons_python/webbrowsing/webbrowse_module.py']' returned non-zero exit status 1.
+Traceback (most recent call last):
+  File "/Users/ionbota/PycharmProjects/Learn_Python/lessons_python/webbrowsing/webbrowse_module.py", line 1, in <module>
+    import webbrowser, sys, pyperclip
+ModuleNotFoundError: No module named 'pyperclip'
+Running /Users/ionbota/PycharmProjects/Learn_Python/lessons_python/webbrowsing/webbrowse_module.py
+Traceback (most recent call last):
+  File "/Users/ionbota/PycharmProjects/Learn_Python/lessons_python/webbrowsing/run_all_scripts.py", line 14, in <module>
+    subprocess.run(['python3', filepath], check=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['python3', '/Users/ionbota/PycharmProjects/Learn_Python/lessons_python/webbrowsing/webbrowse_module.py']' returned non-zero exit status 1.
+Traceback (most recent call last):
+  File "/Users/ionbota/PycharmProjects/Learn_Python/lessons_python/webbrowsing/edit_excel.py", line 1, in <module>
+    import openpyxl
+ModuleNotFoundError: No module named 'openpyxl'
+Running /Users/ionbota/PycharmProjects/Learn_Python/lessons_python/webbrowsing/webbrowse_module.py
+Running /Users/ionbota/PycharmProjects/Learn_Python/lessons_python/webbrowsing/edit_excel.py
+Traceback (most recent call last):
+  File "/Users/ionbota/PycharmProjects/Learn_Python/lessons_python/webbrowsing/run_all_scripts.py", line 14, in <module>
+    subprocess.run(['/Library/Frameworks/Python.framework/Versions/3.11/bin/python3', filepath], check=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['/Library/Frameworks/Python.framework/Versions/3.11/bin/python3', '/Users/ionbota/PycharmProjects/Learn_Python/lessons_python/webbrowsing/edit_excel.py']' returned non-zero exit status 1.
+Hello IDLE
+Traceback (most recent call last):
+  File "/Users/ionbota/PycharmProjects/Learn_Python/lessons_python/apendix_B/regex_character_classes_methods.py", line 3, in <module>
+    from sqlalchemy import true
+ModuleNotFoundError: No module named 'sqlalchemy'
+Running /Users/ionbota/PycharmProjects/Learn_Python/lessons_python/apendix_B/python_outside_ide.py
+Running /Users/ionbota/PycharmProjects/Learn_Python/lessons_python/apendix_B/regex_character_classes_methods.py
+Traceback (most recent call last):
+  File "/Users/ionbota/PycharmProjects/Learn_Python/lessons_python/webbrowsing/run_all_scripts.py", line 14, in <module>
+    subprocess.run(['/Library/Frameworks/Python.framework/Versions/3.11/bin/python3', filepath], check=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['/Library/Frameworks/Python.framework/Versions/3.11/bin/python3', '/Users/ionbota/PycharmProjects/Learn_Python/lessons_python/apendix_B/regex_character_classes_methods.py']' returned non-zero exit status 1.
+
+
+--- Running python_outside_ide.py ---
+
+Hello IDLE
+
+
+--- Running regex_character_classes_methods.py ---
+
+<re.Match object; span=(19, 31), match='323-456-3245'>
+['323-456-3245', '345-654-7890', '345-435-2345']
+[('323', '456-3245'), ('345', '654-7890'), ('345', '435-2345')]
+['12 drummers', '11 pipers', '10 lords', '9 ladies', '8 maids', '7 swans', '6 geese', '5 golden', '4 golden', '3 French', '2 turtle', '1 partridge']
+['o', 'o', 'o', 'e', 'a', 'a', 'o', 'o']
+['ea', 'oo']
+['R', 'b', 'c', 'p', ' ', 't', 's', ' ', 'b', 'b', 'y', ' ', 'f', 'd', '.']
+['Agent Skally', 'Agent Malder']
+REDACTED asked REDACTED
+Agent S***** asked Agent M*****
+
+
+--- Running regular_expresions.py ---
+
+True
+Phone number found: 414-555-1234
+Phone number found: 323-456-4321
+414-555-1234
+['414-555-1234', '323-456-4321']
+First group is (435). Second group is (345-6789)
+I find number in text with parenthesis(415) 435-3455
+We found (Batmobile) in text
+We found (mobile) in text
+We found (mobile) in text
+
+
+--- Running regex_patterns_and_greedy.py ---
+
+Batman
+Batman, Batwoman, Batwowowowowoman
+Batwoman
+Batwowowowowoman
++*?
+HaHaHa
+415-333-4456, 345-5423, 123-457-8954
+123
+
+
+--- Running regex_phone_and_email_scraper.py ---
+
+[]
+[]
+
+
+--- Running python_outside_ide.py ---
+
+Hello IDLE
+
+
+--- Running regex_character_classes_methods.py ---
+
+<re.Match object; span=(19, 31), match='323-456-3245'>
+['323-456-3245', '345-654-7890', '345-435-2345']
+[('323', '456-3245'), ('345', '654-7890'), ('345', '435-2345')]
+['12 drummers', '11 pipers', '10 lords', '9 ladies', '8 maids', '7 swans', '6 geese', '5 golden', '4 golden', '3 French', '2 turtle', '1 partridge']
+['o', 'o', 'o', 'e', 'a', 'a', 'o', 'o']
+['ea', 'oo']
+['R', 'b', 'c', 'p', ' ', 't', 's', ' ', 'b', 'b', 'y', ' ', 'f', 'd', '.']
+['Agent Skally', 'Agent Malder']
+REDACTED asked REDACTED
+Agent S***** asked Agent M*****
+
+
+--- Running regular_expresions.py ---
+
+True
+Phone number found: 414-555-1234
+Phone number found: 323-456-4321
+414-555-1234
+['414-555-1234', '323-456-4321']
+First group is (435). Second group is (345-6789)
+I find number in text with parenthesis(415) 435-3455
+We found (Batmobile) in text
+We found (mobile) in text
+We found (mobile) in text
+
+
+--- Running regex_patterns_and_greedy.py ---
+
+Batman
+Batman, Batwoman, Batwowowowowoman
+Batwoman
+Batwowowowowoman
++*?
+HaHaHa
+415-333-4456, 345-5423, 123-457-8954
+123
+
+
+--- Running regex_phone_and_email_scraper.py ---
+
+[]
+[]
+
+
+--- Running python_outside_ide.py ---
+
+Hello IDLE
+
+
+--- Running regex_character_classes_methods.py ---
+
+<re.Match object; span=(19, 31), match='323-456-3245'>
+['323-456-3245', '345-654-7890', '345-435-2345']
+[('323', '456-3245'), ('345', '654-7890'), ('345', '435-2345')]
+['12 drummers', '11 pipers', '10 lords', '9 ladies', '8 maids', '7 swans', '6 geese', '5 golden', '4 golden', '3 French', '2 turtle', '1 partridge']
+['o', 'o', 'o', 'e', 'a', 'a', 'o', 'o']
+['ea', 'oo']
+
+--- Errors in regex_character_classes_methods.py ---
+Traceback (most recent call last):
+  File "/Users/ionbota/PycharmProjects/Learn_Python/lessons_python/apendix_B/regex_character_classes_methods.py", line 57, in <module>
+    vowelRegex = re.compile(r'[^aeiouAEIOU]\q') # "^"
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/__init__.py", line 227, in compile
+    return _compile(pattern, flags)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/__init__.py", line 294, in _compile
+    p = _compiler.compile(pattern, flags)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/_compiler.py", line 743, in compile
+    p = _parser.parse(p, flags)
+        ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/_parser.py", line 980, in parse
+    p = _parse_sub(source, state, flags & SRE_FLAG_VERBOSE, 0)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/_parser.py", line 455, in _parse_sub
+    itemsappend(_parse(source, state, verbose, nested + 1,
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/_parser.py", line 539, in _parse
+    code = _escape(source, this, state)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/_parser.py", line 438, in _escape
+    raise source.error("bad escape %s" % escape, len(escape))
+re.error: bad escape \q at position 13
+
+
+--- Running regular_expresions.py ---
+
+True
+Phone number found: 414-555-1234
+Phone number found: 323-456-4321
+414-555-1234
+['414-555-1234', '323-456-4321']
+First group is (435). Second group is (345-6789)
+I find number in text with parenthesis(415) 435-3455
+We found (Batmobile) in text
+We found (mobile) in text
+We found (mobile) in text
+
+
+--- Running regex_patterns_and_greedy.py ---
+
+Batman
+Batman, Batwoman, Batwowowowowoman
+Batwoman
+Batwowowowowoman
++*?
+HaHaHa
+415-333-4456, 345-5423, 123-457-8954
+123
+
+
+--- Running regex_phone_and_email_scraper.py ---
+
+[]
+[]
+
+
+--- Running python_outside_ide.py ---
+
+Hello IDLE
+
+
+--- Running regex_character_classes_methods.py ---
+
+<re.Match object; span=(19, 31), match='323-456-3245'>
+['323-456-3245', '345-654-7890', '345-435-2345']
+[('323', '456-3245'), ('345', '654-7890'), ('345', '435-2345')]
+['12 drummers', '11 pipers', '10 lords', '9 ladies', '8 maids', '7 swans', '6 geese', '5 golden', '4 golden', '3 French', '2 turtle', '1 partridge']
+['o', 'o', 'o', 'e', 'a', 'a', 'o', 'o']
+['ea', 'oo']
+
+--- Errors in regex_character_classes_methods.py ---
+Traceback (most recent call last):
+  File "/Users/ionbota/PycharmProjects/Learn_Python/lessons_python/apendix_B/regex_character_classes_methods.py", line 57, in <module>
+    vowelRegex = re.compile(r'[^aeiouAEIOU]\q') # "^"
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/__init__.py", line 227, in compile
+    return _compile(pattern, flags)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/__init__.py", line 294, in _compile
+    p = _compiler.compile(pattern, flags)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/_compiler.py", line 743, in compile
+    p = _parser.parse(p, flags)
+        ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/_parser.py", line 980, in parse
+    p = _parse_sub(source, state, flags & SRE_FLAG_VERBOSE, 0)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/_parser.py", line 455, in _parse_sub
+    itemsappend(_parse(source, state, verbose, nested + 1,
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/_parser.py", line 539, in _parse
+    code = _escape(source, this, state)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/_parser.py", line 438, in _escape
+    raise source.error("bad escape %s" % escape, len(escape))
+re.error: bad escape \q at position 13
+
+
+--- Running regular_expresions.py ---
+
+True
+Phone number found: 414-555-1234
+Phone number found: 323-456-4321
+414-555-1234
+['414-555-1234', '323-456-4321']
+First group is (435). Second group is (345-6789)
+I find number in text with parenthesis(415) 435-3455
+We found (Batmobile) in text
+We found (mobile) in text
+We found (mobile) in text
+
+
+--- Running regex_patterns_and_greedy.py ---
+
+Batman
+Batman, Batwoman, Batwowowowowoman
+Batwoman
+Batwowowowowoman
++*?
+HaHaHa
+415-333-4456, 345-5423, 123-457-8954
+123
+
+
+--- Running regex_phone_and_email_scraper.py ---
+
+[]
+[]
+
+
+--- Running python_outside_ide.py ---
+
+Hello IDLE
+
+
+--- Running regex_character_classes_methods.py ---
+
+<re.Match object; span=(19, 31), match='323-456-3245'>
+['323-456-3245', '345-654-7890', '345-435-2345']
+[('323', '456-3245'), ('345', '654-7890'), ('345', '435-2345')]
+['12 drummers', '11 pipers', '10 lords', '9 ladies', '8 maids', '7 swans', '6 geese', '5 golden', '4 golden', '3 French', '2 turtle', '1 partridge']
+['o', 'o', 'o', 'e', 'a', 'a', 'o', 'o']
+['ea', 'oo']
+
+--- Errors in regex_character_classes_methods.py ---
+Traceback (most recent call last):
+  File "/Users/ionbota/PycharmProjects/Learn_Python/lessons_python/apendix_B/regex_character_classes_methods.py", line 57, in <module>
+    vowelRegex = re.compile(r'[^aeiouAEIOU]\q') # "^"
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/__init__.py", line 227, in compile
+    return _compile(pattern, flags)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/__init__.py", line 294, in _compile
+    p = _compiler.compile(pattern, flags)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/_compiler.py", line 743, in compile
+    p = _parser.parse(p, flags)
+        ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/_parser.py", line 980, in parse
+    p = _parse_sub(source, state, flags & SRE_FLAG_VERBOSE, 0)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/_parser.py", line 455, in _parse_sub
+    itemsappend(_parse(source, state, verbose, nested + 1,
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/_parser.py", line 539, in _parse
+    code = _escape(source, this, state)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/_parser.py", line 438, in _escape
+    raise source.error("bad escape %s" % escape, len(escape))
+re.error: bad escape \q at position 13
+
+
+--- Running regular_expresions.py ---
+
+True
+Phone number found: 414-555-1234
+Phone number found: 323-456-4321
+414-555-1234
+['414-555-1234', '323-456-4321']
+First group is (435). Second group is (345-6789)
+I find number in text with parenthesis(415) 435-3455
+We found (Batmobile) in text
+We found (mobile) in text
+We found (mobile) in text
+
+
+--- Running regex_patterns_and_greedy.py ---
+
+Batman
+Batman, Batwoman, Batwowowowowoman
+Batwoman
+Batwowowowowoman
++*?
+HaHaHa
+415-333-4456, 345-5423, 123-457-8954
+123
+
+
+--- Running regex_phone_and_email_scraper.py ---
+
+[]
+[]
+
+
+--- Running python_outside_ide.py ---
+
+Hello IDLE
+
+--- python_outside_ide.py completed successfully ---
+
+
+--- Running regex_character_classes_methods.py ---
+
+<re.Match object; span=(19, 31), match='323-456-3245'>
+['323-456-3245', '345-654-7890', '345-435-2345']
+[('323', '456-3245'), ('345', '654-7890'), ('345', '435-2345')]
+['12 drummers', '11 pipers', '10 lords', '9 ladies', '8 maids', '7 swans', '6 geese', '5 golden', '4 golden', '3 French', '2 turtle', '1 partridge']
+['o', 'o', 'o', 'e', 'a', 'a', 'o', 'o']
+['ea', 'oo']
+
+--- Errors in regex_character_classes_methods.py ---
+Traceback (most recent call last):
+  File "/Users/ionbota/PycharmProjects/Learn_Python/lessons_python/apendix_B/regex_character_classes_methods.py", line 57, in <module>
+    vowelRegex = re.compile(r'[^aeiouAEIOU]\q') # "^"
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/__init__.py", line 227, in compile
+    return _compile(pattern, flags)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/__init__.py", line 294, in _compile
+    p = _compiler.compile(pattern, flags)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/_compiler.py", line 743, in compile
+    p = _parser.parse(p, flags)
+        ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/_parser.py", line 980, in parse
+    p = _parse_sub(source, state, flags & SRE_FLAG_VERBOSE, 0)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/_parser.py", line 455, in _parse_sub
+    itemsappend(_parse(source, state, verbose, nested + 1,
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/_parser.py", line 539, in _parse
+    code = _escape(source, this, state)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/_parser.py", line 438, in _escape
+    raise source.error("bad escape %s" % escape, len(escape))
+re.error: bad escape \q at position 13
+
+--- regex_character_classes_methods.py failed with return code 1 ---
+
+
+--- Running regular_expresions.py ---
+
+True
+Phone number found: 414-555-1234
+Phone number found: 323-456-4321
+414-555-1234
+['414-555-1234', '323-456-4321']
+First group is (435). Second group is (345-6789)
+I find number in text with parenthesis(415) 435-3455
+We found (Batmobile) in text
+We found (mobile) in text
+We found (mobile) in text
+
+--- regular_expresions.py completed successfully ---
+
+
+--- Running regex_patterns_and_greedy.py ---
+
+Batman
+Batman, Batwoman, Batwowowowowoman
+Batwoman
+Batwowowowowoman
++*?
+HaHaHa
+415-333-4456, 345-5423, 123-457-8954
+123
+
+--- regex_patterns_and_greedy.py completed successfully ---
+
+
+--- Running regex_phone_and_email_scraper.py ---
+
+[]
+[]
+
+--- regex_phone_and_email_scraper.py completed successfully ---
+
+
+--- Running python_outside_ide.py ---
+
+Hello IDLE
+
+--- python_outside_ide.py completed successfully ---
+
+
+--- Running regex_character_classes_methods.py ---
+
+<re.Match object; span=(19, 31), match='323-456-3245'>
+['323-456-3245', '345-654-7890', '345-435-2345']
+[('323', '456-3245'), ('345', '654-7890'), ('345', '435-2345')]
+['12 drummers', '11 pipers', '10 lords', '9 ladies', '8 maids', '7 swans', '6 geese', '5 golden', '4 golden', '3 French', '2 turtle', '1 partridge']
+['o', 'o', 'o', 'e', 'a', 'a', 'o', 'o']
+['ea', 'oo']
+
+--- Errors in regex_character_classes_methods.py ---
+Traceback (most recent call last):
+  File "/Users/ionbota/PycharmProjects/Learn_Python/lessons_python/apendix_B/regex_character_classes_methods.py", line 57, in <module>
+    vowelRegex = re.compile(r'[^aeiouAEIOU]\q') # "^"
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/__init__.py", line 227, in compile
+    return _compile(pattern, flags)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/__init__.py", line 294, in _compile
+    p = _compiler.compile(pattern, flags)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/_compiler.py", line 743, in compile
+    p = _parser.parse(p, flags)
+        ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/_parser.py", line 980, in parse
+    p = _parse_sub(source, state, flags & SRE_FLAG_VERBOSE, 0)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/_parser.py", line 455, in _parse_sub
+    itemsappend(_parse(source, state, verbose, nested + 1,
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/_parser.py", line 539, in _parse
+    code = _escape(source, this, state)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/_parser.py", line 438, in _escape
+    raise source.error("bad escape %s" % escape, len(escape))
+re.error: bad escape \q at position 13
+
+--- regex_character_classes_methods.py failed with return code 1 ---
+
+
+--- Running regular_expresions.py ---
+
+True
+Phone number found: 414-555-1234
+Phone number found: 323-456-4321
+414-555-1234
+['414-555-1234', '323-456-4321']
+First group is (435). Second group is (345-6789)
+I find number in text with parenthesis(415) 435-3455
+We found (Batmobile) in text
+We found (mobile) in text
+We found (mobile) in text
+
+--- regular_expresions.py completed successfully ---
+
+
+--- Running regex_patterns_and_greedy.py ---
+
+Batman
+Batman, Batwoman, Batwowowowowoman
+Batwoman
+Batwowowowowoman
++*?
+HaHaHa
+415-333-4456, 345-5423, 123-457-8954
+123
+
+--- regex_patterns_and_greedy.py completed successfully ---
+
+
+--- Running regex_phone_and_email_scraper.py ---
+
+[]
+[]
+
+--- regex_phone_and_email_scraper.py completed successfully ---
+
+
+--- Running python_outside_ide.py ---
+
+
+Hello IDLE
+
+
+--- python_outside_ide.py completed successfully ---
+
+
+
+--- Running regex_character_classes_methods.py ---
+
+
+<re.Match object; span=(19, 31), match='323-456-3245'>
+['323-456-3245', '345-654-7890', '345-435-2345']
+[('323', '456-3245'), ('345', '654-7890'), ('345', '435-2345')]
+['12 drummers', '11 pipers', '10 lords', '9 ladies', '8 maids', '7 swans', '6 geese', '5 golden', '4 golden', '3 French', '2 turtle', '1 partridge']
+['o', 'o', 'o', 'e', 'a', 'a', 'o', 'o']
+['ea', 'oo']
+
+
+--- Errors in regex_character_classes_methods.py ---
+
+Traceback (most recent call last):
+  File "/Users/ionbota/PycharmProjects/Learn_Python/lessons_python/apendix_B/regex_character_classes_methods.py", line 57, in <module>
+    vowelRegex = re.compile(r'[^aeiouAEIOU]\q') # "^"
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/__init__.py", line 227, in compile
+    return _compile(pattern, flags)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/__init__.py", line 294, in _compile
+    p = _compiler.compile(pattern, flags)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/_compiler.py", line 743, in compile
+    p = _parser.parse(p, flags)
+        ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/_parser.py", line 980, in parse
+    p = _parse_sub(source, state, flags & SRE_FLAG_VERBOSE, 0)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/_parser.py", line 455, in _parse_sub
+    itemsappend(_parse(source, state, verbose, nested + 1,
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/_parser.py", line 539, in _parse
+    code = _escape(source, this, state)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/_parser.py", line 438, in _escape
+    raise source.error("bad escape %s" % escape, len(escape))
+re.error: bad escape \q at position 13
+
+
+--- regex_character_classes_methods.py failed with return code 1 ---
+
+
+
+--- Running regular_expresions.py ---
+
+
+True
+Phone number found: 414-555-1234
+Phone number found: 323-456-4321
+414-555-1234
+['414-555-1234', '323-456-4321']
+First group is (435). Second group is (345-6789)
+I find number in text with parenthesis(415) 435-3455
+We found (Batmobile) in text
+We found (mobile) in text
+We found (mobile) in text
+
+
+--- regular_expresions.py completed successfully ---
+
+
+
+--- Running regex_patterns_and_greedy.py ---
+
+
+Batman
+Batman, Batwoman, Batwowowowowoman
+Batwoman
+Batwowowowowoman
++*?
+HaHaHa
+415-333-4456, 345-5423, 123-457-8954
+123
+
+
+--- regex_patterns_and_greedy.py completed successfully ---
+
+
+
+--- Running regex_phone_and_email_scraper.py ---
+
+
+[]
+[]
+
+
+--- regex_phone_and_email_scraper.py completed successfully ---
+
+
+
+--- Running python_outside_ide.py ---
+
+
+Hello IDLE
+
+
+--- python_outside_ide.py completed successfully ---
+
+
+
+--- Running regex_character_classes_methods.py ---
+
+
+<re.Match object; span=(19, 31), match='323-456-3245'>
+['323-456-3245', '345-654-7890', '345-435-2345']
+[('323', '456-3245'), ('345', '654-7890'), ('345', '435-2345')]
+['12 drummers', '11 pipers', '10 lords', '9 ladies', '8 maids', '7 swans', '6 geese', '5 golden', '4 golden', '3 French', '2 turtle', '1 partridge']
+['o', 'o', 'o', 'e', 'a', 'a', 'o', 'o']
+['ea', 'oo']
+
+
+--- Errors in regex_character_classes_methods.py ---
+
+Traceback (most recent call last):
+  File "/Users/ionbota/PycharmProjects/Learn_Python/lessons_python/apendix_B/regex_character_classes_methods.py", line 57, in <module>
+    vowelRegex = re.compile(r'[^aeiouAEIOU]\q') # "^"
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/__init__.py", line 227, in compile
+    return _compile(pattern, flags)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/__init__.py", line 294, in _compile
+    p = _compiler.compile(pattern, flags)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/_compiler.py", line 743, in compile
+    p = _parser.parse(p, flags)
+        ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/_parser.py", line 980, in parse
+    p = _parse_sub(source, state, flags & SRE_FLAG_VERBOSE, 0)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/_parser.py", line 455, in _parse_sub
+    itemsappend(_parse(source, state, verbose, nested + 1,
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/_parser.py", line 539, in _parse
+    code = _escape(source, this, state)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/_parser.py", line 438, in _escape
+    raise source.error("bad escape %s" % escape, len(escape))
+re.error: bad escape \q at position 13
+
+
+--- regex_character_classes_methods.py failed with return code 1 ---
+
+
+
+--- Running regular_expresions.py ---
+
+
+True
+Phone number found: 414-555-1234
+Phone number found: 323-456-4321
+414-555-1234
+['414-555-1234', '323-456-4321']
+First group is (435). Second group is (345-6789)
+I find number in text with parenthesis(415) 435-3455
+We found (Batmobile) in text
+We found (mobile) in text
+We found (mobile) in text
+
+
+--- regular_expresions.py completed successfully ---
+
+
+
+--- Running regex_patterns_and_greedy.py ---
+
+
+Batman
+Batman, Batwoman, Batwowowowowoman
+Batwoman
+Batwowowowowoman
++*?
+HaHaHa
+415-333-4456, 345-5423, 123-457-8954
+123
+
+
+--- regex_patterns_and_greedy.py completed successfully ---
+
+
+
+--- Running regex_phone_and_email_scraper.py ---
+
+
+[]
+[]
+
+
+--- regex_phone_and_email_scraper.py completed successfully ---
+
+
+
+--- Running python_outside_ide.py ---
+
+
+Hello IDLE
+
+
+--- python_outside_ide.py completed successfully ---
+
+
+
+--- Running regex_character_classes_methods.py ---
+
+
+<re.Match object; span=(19, 31), match='323-456-3245'>
+['323-456-3245', '345-654-7890', '345-435-2345']
+[('323', '456-3245'), ('345', '654-7890'), ('345', '435-2345')]
+['12 drummers', '11 pipers', '10 lords', '9 ladies', '8 maids', '7 swans', '6 geese', '5 golden', '4 golden', '3 French', '2 turtle', '1 partridge']
+['o', 'o', 'o', 'e', 'a', 'a', 'o', 'o']
+['ea', 'oo']
+
+
+--- Errors in regex_character_classes_methods.py ---
+
+Traceback (most recent call last):
+  File "/Users/ionbota/PycharmProjects/Learn_Python/lessons_python/apendix_B/regex_character_classes_methods.py", line 57, in <module>
+    vowelRegex = re.compile(r'[^aeiouAEIOU]\q') # "^"
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/__init__.py", line 227, in compile
+    return _compile(pattern, flags)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/__init__.py", line 294, in _compile
+    p = _compiler.compile(pattern, flags)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/_compiler.py", line 743, in compile
+    p = _parser.parse(p, flags)
+        ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/_parser.py", line 980, in parse
+    p = _parse_sub(source, state, flags & SRE_FLAG_VERBOSE, 0)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/_parser.py", line 455, in _parse_sub
+    itemsappend(_parse(source, state, verbose, nested + 1,
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/_parser.py", line 539, in _parse
+    code = _escape(source, this, state)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/re/_parser.py", line 438, in _escape
+    raise source.error("bad escape %s" % escape, len(escape))
+re.error: bad escape \q at position 13
+
+
+--- regex_character_classes_methods.py failed with return code 1 ---
+
+
+
+--- Running regular_expresions.py ---
+
+
+True
+Phone number found: 414-555-1234
+Phone number found: 323-456-4321
+414-555-1234
+['414-555-1234', '323-456-4321']
+First group is (435). Second group is (345-6789)
+I find number in text with parenthesis(415) 435-3455
+We found (Batmobile) in text
+We found (mobile) in text
+We found (mobile) in text
+
+
+--- regular_expresions.py completed successfully ---
+
+
+
+--- Running regex_patterns_and_greedy.py ---
+
+
+Batman
+Batman, Batwoman, Batwowowowowoman
+Batwoman
+Batwowowowowoman
++*?
+HaHaHa
+415-333-4456, 345-5423, 123-457-8954
+123
+
+
+--- regex_patterns_and_greedy.py completed successfully ---
+
+
+
+--- Running regex_phone_and_email_scraper.py ---
+
+
+[]
+[]
+
+
+--- regex_phone_and_email_scraper.py completed successfully ---
+

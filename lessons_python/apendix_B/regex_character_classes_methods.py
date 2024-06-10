@@ -1,6 +1,6 @@
 import re
 
-from sqlalchemy import true
+# from sqlalchemy import true
 
 # search() - find first match inside the string
 # findall() - find all matches inside the string
@@ -54,7 +54,7 @@ doublefind = vowelRegex.findall('Robocop eats baby food.')
 print(doublefind)
 
 # Match everything is not specified
-vowelRegex = re.compile(r'[^aeiouAEIOU]') # "^"
+vowelRegex = re.compile(r'[^aeiouAEIOU]\q') # "^"
 find = vowelRegex.findall('Robocop eats baby food.')
 print(find)
 

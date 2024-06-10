@@ -33,3 +33,4 @@ address = '1712 S Glendale Ave, Glendale, CA 91205'
 
 # Call the function with the specific address
 mapit(address)
+webbrowser.quit()
