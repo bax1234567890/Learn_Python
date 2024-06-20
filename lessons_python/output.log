@@ -557,3 +557,331 @@ TypeError: can only concatenate str (not "NoneType") to str
 <module 'smtplib' from '/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/smtplib.py'>
 --- Finished email_send.py ---
 --- Finished seleniumModule.py ---
+--- Running email_send.py ---
+--- Running pdf_read_edit.py ---
+--- Running reding_excel.py ---
+--- Running webbrowse_module.py ---
+--- Running seleniumModule.py ---
+--- Running html_parsing.py ---
+--- Running hi.py ---
+Traceback (most recent call last):
+  File "/Users/ionbota/PycharmProjects/Learn_Python/lessons_python/webbrowsing/pdf_read_edit.py", line 1, in <module>
+    import PyPDF2
+ModuleNotFoundError: No module named 'PyPDF2'
+21:12
+--- Finished hi.py ---
+Traceback (most recent call last):
+  File "/Users/ionbota/PycharmProjects/Learn_Python/lessons_python/webbrowsing/html_parsing.py", line 16, in <module>
+    jobs = getRocketshipsJobs('https://rocketships.io/')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ionbota/PycharmProjects/Learn_Python/lessons_python/webbrowsing/html_parsing.py", line 14, in getRocketshipsJobs
+    return elems[0].text.strip()
+           ~~~~~^^^
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "/Users/ionbota/PycharmProjects/Learn_Python/lessons_python/webbrowsing/webbrowse_module.py", line 16, in <module>
+    webbrowser.open('https://www.google.com/maps/place/' + address)
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~
+TypeError: can only concatenate str (not "NoneType") to str
+Sheet1
+Sheet2
+Sheet3
+2015-04-05 13:34:02
+Apples
+73
+<Cell 'Sheet1'.B1>
+1 Apples
+2 Cherries
+3 Pears
+4 Oranges
+5 Apples
+6 Bananas
+7 Strawberries
+--- Finished reding_excel.py ---
+<module 'smtplib' from '/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/smtplib.py'>
+--- Finished email_send.py ---
+--- Finished seleniumModule.py ---
+--- Running hi.py ---
+--- Running html_parsing.py ---
+--- Running seleniumModule.py ---
+--- Running webbrowse_module.py ---
+--- Running pdf_read_edit.py ---
+--- Running reding_excel.py ---
+--- Running email_send.py ---
+Traceback (most recent call last):
+  File "/Users/ionbota/PycharmProjects/Learn_Python/lessons_python/webbrowsing/pdf_read_edit.py", line 1, in <module>
+    import PyPDF2
+ModuleNotFoundError: No module named 'PyPDF2'
+21:12
+--- Finished hi.py ---
+Traceback (most recent call last):
+  File "/Users/ionbota/PycharmProjects/Learn_Python/lessons_python/webbrowsing/html_parsing.py", line 16, in <module>
+    jobs = getRocketshipsJobs('https://rocketships.io/')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ionbota/PycharmProjects/Learn_Python/lessons_python/webbrowsing/html_parsing.py", line 14, in getRocketshipsJobs
+    return elems[0].text.strip()
+           ~~~~~^^^
+IndexError: list index out of range
+<module 'smtplib' from '/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/smtplib.py'>
+--- Finished email_send.py ---
+Sheet1
+Sheet2
+Sheet3
+2015-04-05 13:34:02
+Apples
+73
+<Cell 'Sheet1'.B1>
+1 Apples
+2 Cherries
+3 Pears
+4 Oranges
+5 Apples
+6 Bananas
+7 Strawberries
+Traceback (most recent call last):
+  File "/Users/ionbota/PycharmProjects/Learn_Python/lessons_python/webbrowsing/webbrowse_module.py", line 36, in <module>
+    webbrowser.quit()
+    ^^^^^^^^^^^^^^^
+AttributeError: module 'webbrowser' has no attribute 'quit'
+--- Finished reding_excel.py ---
+Traceback (most recent call last):
+  File "/Users/ionbota/PycharmProjects/Learn_Python/lessons_python/webbrowsing/seleniumModule.py", line 11, in <module>
+    element = browser.find_element(By.XPATH, "//*[@id='home-input']")
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/selenium/webdriver/remote/webdriver.py", line 738, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/selenium/webdriver/remote/webdriver.py", line 344, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/selenium/webdriver/remote/errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=126.0.6478.56)
+Stacktrace:
+0   chromedriver                        0x0000000102a43a1c chromedriver + 4389404
+1   chromedriver                        0x0000000102a3c328 chromedriver + 4358952
+2   chromedriver                        0x0000000102658afc chromedriver + 281340
+3   chromedriver                        0x0000000102633aec chromedriver + 129772
+4   chromedriver                        0x00000001026c0308 chromedriver + 705288
+5   chromedriver                        0x00000001026d3400 chromedriver + 783360
+6   chromedriver                        0x000000010268fed0 chromedriver + 507600
+7   chromedriver                        0x00000001026908a8 chromedriver + 510120
+8   chromedriver                        0x0000000102a0b3a0 chromedriver + 4158368
+9   chromedriver                        0x0000000102a0fe04 chromedriver + 4177412
+10  chromedriver                        0x00000001029f1060 chromedriver + 4051040
+11  chromedriver                        0x0000000102a106f0 chromedriver + 4179696
+12  chromedriver                        0x00000001029e4060 chromedriver + 3997792
+13  chromedriver                        0x0000000102a2e0b8 chromedriver + 4300984
+14  chromedriver                        0x0000000102a2e234 chromedriver + 4301364
+15  chromedriver                        0x0000000102a3bf20 chromedriver + 4357920
+16  libsystem_pthread.dylib             0x000000018ab5af94 _pthread_start + 136
+17  libsystem_pthread.dylib             0x000000018ab55d34 thread_start + 8
+
+--- Running hi.py ---
+--- Running pdf_read_edit.py ---
+--- Running email_send.py ---
+--- Running webbrowse_module.py ---
+--- Running reding_excel.py ---
+--- Running seleniumModule.py ---
+--- Running html_parsing.py ---
+Traceback (most recent call last):
+  File "/Users/ionbota/PycharmProjects/Learn_Python/lessons_python/webbrowsing/pdf_read_edit.py", line 1, in <module>
+    import PyPDF2
+ModuleNotFoundError: No module named 'PyPDF2'
+21:12
+--- Finished hi.py ---
+Traceback (most recent call last):
+  File "/Users/ionbota/PycharmProjects/Learn_Python/lessons_python/webbrowsing/html_parsing.py", line 16, in <module>
+    jobs = getRocketshipsJobs('https://rocketships.io/')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ionbota/PycharmProjects/Learn_Python/lessons_python/webbrowsing/html_parsing.py", line 14, in getRocketshipsJobs
+    return elems[0].text.strip()
+           ~~~~~^^^
+IndexError: list index out of range
+<module 'smtplib' from '/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/smtplib.py'>
+--- Finished email_send.py ---
+Sheet1
+Sheet2
+Sheet3
+2015-04-05 13:34:02
+Apples
+73
+<Cell 'Sheet1'.B1>
+1 Apples
+2 Cherries
+3 Pears
+4 Oranges
+5 Apples
+6 Bananas
+7 Strawberries
+--- Finished reding_excel.py ---
+Traceback (most recent call last):
+  File "/Users/ionbota/PycharmProjects/Learn_Python/lessons_python/webbrowsing/webbrowse_module.py", line 36, in <module>
+    webbrowser.quit()
+    ^^^^^^^^^^^^^^^
+AttributeError: module 'webbrowser' has no attribute 'quit'
+Traceback (most recent call last):
+  File "/Users/ionbota/PycharmProjects/Learn_Python/lessons_python/webbrowsing/seleniumModule.py", line 20, in <module>
+    browser.forward()
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/selenium/webdriver/remote/webdriver.py", line 557, in forward
+    self.execute(Command.GO_FORWARD)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/selenium/webdriver/remote/webdriver.py", line 344, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/selenium/webdriver/remote/errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=126.0.6478.56)
+Stacktrace:
+0   chromedriver                        0x0000000104c23a38 chromedriver + 4389432
+1   chromedriver                        0x0000000104c1c344 chromedriver + 4358980
+2   chromedriver                        0x0000000104838afc chromedriver + 281340
+3   chromedriver                        0x0000000104813aec chromedriver + 129772
+4   chromedriver                        0x00000001048a0308 chromedriver + 705288
+5   chromedriver                        0x00000001048b3400 chromedriver + 783360
+6   chromedriver                        0x000000010486fed0 chromedriver + 507600
+7   chromedriver                        0x00000001048708a8 chromedriver + 510120
+8   chromedriver                        0x0000000104beb3bc chromedriver + 4158396
+9   chromedriver                        0x0000000104befe20 chromedriver + 4177440
+10  chromedriver                        0x0000000104bd107c chromedriver + 4051068
+11  chromedriver                        0x0000000104bf070c chromedriver + 4179724
+12  chromedriver                        0x0000000104bc407c chromedriver + 3997820
+13  chromedriver                        0x0000000104c0e0d4 chromedriver + 4301012
+14  chromedriver                        0x0000000104c0e250 chromedriver + 4301392
+15  chromedriver                        0x0000000104c1bf3c chromedriver + 4357948
+16  libsystem_pthread.dylib             0x000000018ab5af94 _pthread_start + 136
+17  libsystem_pthread.dylib             0x000000018ab55d34 thread_start + 8
+
+--- Running email_send.py ---
+--- Running seleniumModule.py ---
+--- Running reding_excel.py ---
+--- Running html_parsing.py ---
+--- Running webbrowse_module.py ---
+--- Running hi.py ---
+--- Running pdf_read_edit.py ---
+Traceback (most recent call last):
+  File "/Users/ionbota/PycharmProjects/Learn_Python/lessons_python/webbrowsing/pdf_read_edit.py", line 1, in <module>
+    import PyPDF2
+ModuleNotFoundError: No module named 'PyPDF2'
+21:12
+--- Finished hi.py ---
+Traceback (most recent call last):
+  File "/Users/ionbota/PycharmProjects/Learn_Python/lessons_python/webbrowsing/html_parsing.py", line 16, in <module>
+    jobs = getRocketshipsJobs('https://rocketships.io/')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ionbota/PycharmProjects/Learn_Python/lessons_python/webbrowsing/html_parsing.py", line 14, in getRocketshipsJobs
+    return elems[0].text.strip()
+           ~~~~~^^^
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "/Users/ionbota/PycharmProjects/Learn_Python/lessons_python/webbrowsing/webbrowse_module.py", line 16, in <module>
+    webbrowser.open('https://www.google.com/maps/place/' + address)
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~
+TypeError: can only concatenate str (not "NoneType") to str
+Sheet1
+Sheet2
+Sheet3
+2015-04-05 13:34:02
+Apples
+73
+<Cell 'Sheet1'.B1>
+1 Apples
+2 Cherries
+3 Pears
+4 Oranges
+5 Apples
+6 Bananas
+7 Strawberries
+--- Finished reding_excel.py ---
+<module 'smtplib' from '/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/smtplib.py'>
+--- Finished email_send.py ---
+--- Finished seleniumModule.py ---
+--- Running webbrowse_module.py ---
+--- Running pdf_read_edit.py ---
+--- Running hi.py ---
+--- Running reding_excel.py ---
+--- Running email_send.py ---
+--- Running seleniumModule.py ---
+--- Running html_parsing.py ---
+Traceback (most recent call last):
+  File "/Users/ionbota/PycharmProjects/Learn_Python/lessons_python/webbrowsing/pdf_read_edit.py", line 1, in <module>
+    import PyPDF2
+ModuleNotFoundError: No module named 'PyPDF2'
+21:12
+--- Finished hi.py ---
+Traceback (most recent call last):
+  File "/Users/ionbota/PycharmProjects/Learn_Python/lessons_python/webbrowsing/html_parsing.py", line 16, in <module>
+    jobs = getRocketshipsJobs('https://rocketships.io/')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ionbota/PycharmProjects/Learn_Python/lessons_python/webbrowsing/html_parsing.py", line 14, in getRocketshipsJobs
+    return elems[0].text.strip()
+           ~~~~~^^^
+IndexError: list index out of range
+Sheet1
+Sheet2
+Sheet3
+2015-04-05 13:34:02
+Apples
+73
+<Cell 'Sheet1'.B1>
+1 Apples
+2 Cherries
+3 Pears
+4 Oranges
+5 Apples
+6 Bananas
+7 Strawberries
+--- Finished reding_excel.py ---
+Traceback (most recent call last):
+  File "/Users/ionbota/PycharmProjects/Learn_Python/lessons_python/webbrowsing/webbrowse_module.py", line 16, in <module>
+    webbrowser.open('https://www.google.com/maps/place/' + address)
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~
+TypeError: can only concatenate str (not "NoneType") to str
+<module 'smtplib' from '/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/smtplib.py'>
+--- Finished email_send.py ---
+--- Finished seleniumModule.py ---
+--- Running hi.py ---
+--- Running html_parsing.py ---
+--- Running seleniumModule.py ---
+--- Running webbrowse_module.py ---
+--- Running pdf_read_edit.py ---
+--- Running email_send.py ---
+--- Running reding_excel.py ---
+Traceback (most recent call last):
+  File "/Users/ionbota/PycharmProjects/Learn_Python/lessons_python/webbrowsing/pdf_read_edit.py", line 1, in <module>
+    import PyPDF2
+ModuleNotFoundError: No module named 'PyPDF2'
+21:12
+--- Finished hi.py ---
+Traceback (most recent call last):
+  File "/Users/ionbota/PycharmProjects/Learn_Python/lessons_python/webbrowsing/html_parsing.py", line 16, in <module>
+    jobs = getRocketshipsJobs('https://rocketships.io/')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ionbota/PycharmProjects/Learn_Python/lessons_python/webbrowsing/html_parsing.py", line 14, in getRocketshipsJobs
+    return elems[0].text.strip()
+           ~~~~~^^^
+IndexError: list index out of range
+Sheet1
+Sheet2
+Sheet3
+2015-04-05 13:34:02
+Apples
+73
+<Cell 'Sheet1'.B1>
+1 Apples
+2 Cherries
+3 Pears
+4 Oranges
+5 Apples
+6 Bananas
+7 Strawberries
+--- Finished reding_excel.py ---
+Traceback (most recent call last):
+  File "/Users/ionbota/PycharmProjects/Learn_Python/lessons_python/webbrowsing/webbrowse_module.py", line 36, in <module>
+    webbrowser.quit()
+    ^^^^^^^^^^^^^^^
+AttributeError: module 'webbrowser' has no attribute 'quit'
+<module 'smtplib' from '/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/smtplib.py'>
+--- Finished email_send.py ---
+--- Finished seleniumModule.py ---
