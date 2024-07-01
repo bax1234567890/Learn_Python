@@ -885,3 +885,49 @@ AttributeError: module 'webbrowser' has no attribute 'quit'
 <module 'smtplib' from '/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/smtplib.py'>
 --- Finished email_send.py ---
 --- Finished seleniumModule.py ---
+--- Running pdf_read_edit.py ---
+--- Running email_send.py ---
+--- Running hi.py ---
+--- Running seleniumModule.py ---
+--- Running webbrowse_module.py ---
+--- Running html_parsing.py ---
+--- Running reding_excel.py ---
+Traceback (most recent call last):
+  File "/Users/ionbota/PycharmProjects/Learn_Python/lessons_python/webbrowsing/pdf_read_edit.py", line 1, in <module>
+    import PyPDF2
+ModuleNotFoundError: No module named 'PyPDF2'
+21:12
+--- Finished hi.py ---
+Traceback (most recent call last):
+  File "/Users/ionbota/PycharmProjects/Learn_Python/lessons_python/webbrowsing/html_parsing.py", line 16, in <module>
+    jobs = getRocketshipsJobs('https://rocketships.io/')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ionbota/PycharmProjects/Learn_Python/lessons_python/webbrowsing/html_parsing.py", line 14, in getRocketshipsJobs
+    return elems[0].text.strip()
+           ~~~~~^^^
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "/Users/ionbota/PycharmProjects/Learn_Python/lessons_python/webbrowsing/webbrowse_module.py", line 16, in <module>
+    webbrowser.open('https://www.google.com/maps/place/' + address)
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~
+TypeError: can only concatenate str (not "NoneType") to str
+Traceback (most recent call last):
+  File "/Users/ionbota/PycharmProjects/Learn_Python/lessons_python/webbrowsing/reding_excel.py", line 8, in <module>
+    workbook = openpyxl.load_workbook('example.xlsx')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/openpyxl/reader/excel.py", line 344, in load_workbook
+    reader = ExcelReader(filename, read_only, keep_vba,
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/openpyxl/reader/excel.py", line 123, in __init__
+    self.archive = _validate_archive(fn)
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/openpyxl/reader/excel.py", line 95, in _validate_archive
+    archive = ZipFile(filename, 'r')
+              ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/zipfile.py", line 1281, in __init__
+    self.fp = io.open(file, filemode)
+              ^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'example.xlsx'
+<module 'smtplib' from '/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/smtplib.py'>
+--- Finished email_send.py ---
+--- Finished seleniumModule.py ---
