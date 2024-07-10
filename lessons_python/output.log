@@ -931,3 +931,264 @@ FileNotFoundError: [Errno 2] No such file or directory: 'example.xlsx'
 <module 'smtplib' from '/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/smtplib.py'>
 --- Finished email_send.py ---
 --- Finished seleniumModule.py ---
+--- Running webbrowse_module.py ---
+--- Running email_send.py ---
+--- Running seleniumModule.py ---
+--- Running reding_excel.py ---
+--- Running hi.py ---
+--- Running html_parsing.py ---
+--- Running pdf_read_edit.py ---
+Traceback (most recent call last):
+  File "/Users/ionbota/PycharmProjects/Learn_Python/lessons_python/webbrowsing/pdf_read_edit.py", line 1, in <module>
+    import PyPDF2
+ModuleNotFoundError: No module named 'PyPDF2'
+21:12
+--- Finished hi.py ---
+Traceback (most recent call last):
+  File "/Users/ionbota/PycharmProjects/Learn_Python/lessons_python/webbrowsing/html_parsing.py", line 16, in <module>
+    jobs = getRocketshipsJobs('https://rocketships.io/')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ionbota/PycharmProjects/Learn_Python/lessons_python/webbrowsing/html_parsing.py", line 14, in getRocketshipsJobs
+    return elems[0].text.strip()
+           ~~~~~^^^
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "/Users/ionbota/PycharmProjects/Learn_Python/lessons_python/webbrowsing/webbrowse_module.py", line 16, in <module>
+    webbrowser.open('https://www.google.com/maps/place/' + address)
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~
+TypeError: can only concatenate str (not "NoneType") to str
+Traceback (most recent call last):
+  File "/Users/ionbota/PycharmProjects/Learn_Python/lessons_python/webbrowsing/reding_excel.py", line 8, in <module>
+    workbook = openpyxl.load_workbook('example.xlsx')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/openpyxl/reader/excel.py", line 344, in load_workbook
+    reader = ExcelReader(filename, read_only, keep_vba,
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/openpyxl/reader/excel.py", line 123, in __init__
+    self.archive = _validate_archive(fn)
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/openpyxl/reader/excel.py", line 95, in _validate_archive
+    archive = ZipFile(filename, 'r')
+              ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/zipfile.py", line 1281, in __init__
+    self.fp = io.open(file, filemode)
+              ^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'example.xlsx'
+<module 'smtplib' from '/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/smtplib.py'>
+--- Finished email_send.py ---
+--- Finished seleniumModule.py ---
+--- Running seleniumModule.py ---
+--- Running reding_excel.py ---
+--- Running email_send.py ---
+--- Running hi.py ---
+--- Running html_parsing.py ---
+--- Running pdf_read_edit.py ---
+--- Running webbrowse_module.py ---
+Traceback (most recent call last):
+  File "/Users/ionbota/PycharmProjects/Learn_Python/lessons_python/webbrowsing/pdf_read_edit.py", line 1, in <module>
+    import PyPDF2
+ModuleNotFoundError: No module named 'PyPDF2'
+21:12
+--- Finished hi.py ---
+Traceback (most recent call last):
+  File "/Users/ionbota/PycharmProjects/Learn_Python/lessons_python/webbrowsing/html_parsing.py", line 16, in <module>
+    jobs = getRocketshipsJobs('https://rocketships.io/')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ionbota/PycharmProjects/Learn_Python/lessons_python/webbrowsing/html_parsing.py", line 14, in getRocketshipsJobs
+    return elems[0].text.strip()
+           ~~~~~^^^
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "/Users/ionbota/PycharmProjects/Learn_Python/lessons_python/webbrowsing/webbrowse_module.py", line 16, in <module>
+    webbrowser.open('https://www.google.com/maps/place/' + address)
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~
+TypeError: can only concatenate str (not "NoneType") to str
+Traceback (most recent call last):
+  File "/Users/ionbota/PycharmProjects/Learn_Python/lessons_python/webbrowsing/reding_excel.py", line 8, in <module>
+    workbook = openpyxl.load_workbook('example.xlsx')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/openpyxl/reader/excel.py", line 344, in load_workbook
+    reader = ExcelReader(filename, read_only, keep_vba,
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/openpyxl/reader/excel.py", line 123, in __init__
+    self.archive = _validate_archive(fn)
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/openpyxl/reader/excel.py", line 95, in _validate_archive
+    archive = ZipFile(filename, 'r')
+              ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/zipfile.py", line 1281, in __init__
+    self.fp = io.open(file, filemode)
+              ^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'example.xlsx'
+<module 'smtplib' from '/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/smtplib.py'>
+--- Finished email_send.py ---
+--- Finished seleniumModule.py ---
+--- Running webbrowse_module.py ---
+--- Running seleniumModule.py ---
+--- Running reding_excel.py ---
+--- Running html_parsing.py ---
+--- Running pdf_read_edit.py ---
+--- Running hi.py ---
+--- Running email_send.py ---
+Traceback (most recent call last):
+  File "/Users/ionbota/PycharmProjects/Learn_Python/lessons_python/webbrowsing/pdf_read_edit.py", line 1, in <module>
+    import PyPDF2
+ModuleNotFoundError: No module named 'PyPDF2'
+21:12
+--- Finished hi.py ---
+Traceback (most recent call last):
+  File "/Users/ionbota/PycharmProjects/Learn_Python/lessons_python/webbrowsing/html_parsing.py", line 16, in <module>
+    jobs = getRocketshipsJobs('https://rocketships.io/')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ionbota/PycharmProjects/Learn_Python/lessons_python/webbrowsing/html_parsing.py", line 14, in getRocketshipsJobs
+    return elems[0].text.strip()
+           ~~~~~^^^
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "/Users/ionbota/PycharmProjects/Learn_Python/lessons_python/webbrowsing/webbrowse_module.py", line 16, in <module>
+    webbrowser.open('https://www.google.com/maps/place/' + address)
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~
+TypeError: can only concatenate str (not "NoneType") to str
+Traceback (most recent call last):
+  File "/Users/ionbota/PycharmProjects/Learn_Python/lessons_python/webbrowsing/reding_excel.py", line 8, in <module>
+    workbook = openpyxl.load_workbook('example.xlsx')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/openpyxl/reader/excel.py", line 344, in load_workbook
+    reader = ExcelReader(filename, read_only, keep_vba,
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/openpyxl/reader/excel.py", line 123, in __init__
+    self.archive = _validate_archive(fn)
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/openpyxl/reader/excel.py", line 95, in _validate_archive
+    archive = ZipFile(filename, 'r')
+              ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/zipfile.py", line 1281, in __init__
+    self.fp = io.open(file, filemode)
+              ^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'example.xlsx'
+<module 'smtplib' from '/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/smtplib.py'>
+--- Finished email_send.py ---
+--- Finished seleniumModule.py ---
+--- Running email_send.py ---
+--- Running pdf_read_edit.py ---
+--- Running reding_excel.py ---
+--- Running hi.py ---
+--- Running seleniumModule.py ---
+--- Running html_parsing.py ---
+--- Running webbrowse_module.py ---
+Traceback (most recent call last):
+  File "/Users/ionbota/PycharmProjects/Learn_Python/lessons_python/webbrowsing/pdf_read_edit.py", line 1, in <module>
+    import PyPDF2
+ModuleNotFoundError: No module named 'PyPDF2'
+21:12
+--- Finished hi.py ---
+Traceback (most recent call last):
+  File "/Users/ionbota/PycharmProjects/Learn_Python/lessons_python/webbrowsing/html_parsing.py", line 16, in <module>
+    jobs = getRocketshipsJobs('https://rocketships.io/')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ionbota/PycharmProjects/Learn_Python/lessons_python/webbrowsing/html_parsing.py", line 14, in getRocketshipsJobs
+    return elems[0].text.strip()
+           ~~~~~^^^
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "/Users/ionbota/PycharmProjects/Learn_Python/lessons_python/webbrowsing/reding_excel.py", line 8, in <module>
+    workbook = openpyxl.load_workbook('example.xlsx')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/openpyxl/reader/excel.py", line 344, in load_workbook
+    reader = ExcelReader(filename, read_only, keep_vba,
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/openpyxl/reader/excel.py", line 123, in __init__
+    self.archive = _validate_archive(fn)
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/openpyxl/reader/excel.py", line 95, in _validate_archive
+    archive = ZipFile(filename, 'r')
+              ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/zipfile.py", line 1281, in __init__
+    self.fp = io.open(file, filemode)
+              ^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'example.xlsx'
+Traceback (most recent call last):
+  File "/Users/ionbota/PycharmProjects/Learn_Python/lessons_python/webbrowsing/webbrowse_module.py", line 16, in <module>
+    webbrowser.open('https://www.google.com/maps/place/' + address)
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~
+TypeError: can only concatenate str (not "NoneType") to str
+<module 'smtplib' from '/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/smtplib.py'>
+--- Finished email_send.py ---
+--- Finished seleniumModule.py ---
+--- Running hi.py ---
+--- Running webbrowse_module.py ---
+--- Running email_send.py ---
+--- Running pdf_read_edit.py ---
+--- Running seleniumModule.py ---
+--- Running html_parsing.py ---
+--- Running reding_excel.py ---
+Traceback (most recent call last):
+  File "/Users/ionbota/PycharmProjects/Learn_Python/lessons_python/webbrowsing/pdf_read_edit.py", line 1, in <module>
+    import PyPDF2
+ModuleNotFoundError: No module named 'PyPDF2'
+21:12
+--- Finished hi.py ---
+Traceback (most recent call last):
+  File "/Users/ionbota/PycharmProjects/Learn_Python/lessons_python/webbrowsing/webbrowse_module.py", line 16, in <module>
+    webbrowser.open('https://www.google.com/maps/place/' + address)
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~
+TypeError: can only concatenate str (not "NoneType") to str
+Traceback (most recent call last):
+  File "/Users/ionbota/PycharmProjects/Learn_Python/lessons_python/webbrowsing/html_parsing.py", line 16, in <module>
+    jobs = getRocketshipsJobs('https://rocketships.io/')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ionbota/PycharmProjects/Learn_Python/lessons_python/webbrowsing/html_parsing.py", line 14, in getRocketshipsJobs
+    return elems[0].text.strip()
+           ~~~~~^^^
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "/Users/ionbota/PycharmProjects/Learn_Python/lessons_python/webbrowsing/reding_excel.py", line 8, in <module>
+    workbook = openpyxl.load_workbook('example.xlsx')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/openpyxl/reader/excel.py", line 344, in load_workbook
+    reader = ExcelReader(filename, read_only, keep_vba,
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/openpyxl/reader/excel.py", line 123, in __init__
+    self.archive = _validate_archive(fn)
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/openpyxl/reader/excel.py", line 95, in _validate_archive
+    archive = ZipFile(filename, 'r')
+              ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/zipfile.py", line 1281, in __init__
+    self.fp = io.open(file, filemode)
+              ^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'example.xlsx'
+<module 'smtplib' from '/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/smtplib.py'>
+--- Finished email_send.py ---
+Traceback (most recent call last):
+  File "/Users/ionbota/PycharmProjects/Learn_Python/lessons_python/webbrowsing/seleniumModule.py", line 16, in <module>
+    browser.back()
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/selenium/webdriver/remote/webdriver.py", line 547, in back
+    self.execute(Command.GO_BACK)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/selenium/webdriver/remote/webdriver.py", line 344, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/selenium/webdriver/remote/errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=126.0.6478.127)
+Stacktrace:
+0   chromedriver                        0x0000000104cb6a80 chromedriver + 4385408
+1   chromedriver                        0x0000000104caf38c chromedriver + 4354956
+2   chromedriver                        0x00000001048ccb0c chromedriver + 281356
+3   chromedriver                        0x00000001048a7af0 chromedriver + 129776
+4   chromedriver                        0x0000000104934314 chromedriver + 705300
+5   chromedriver                        0x0000000104947438 chromedriver + 783416
+6   chromedriver                        0x0000000104903eec chromedriver + 507628
+7   chromedriver                        0x00000001049048c4 chromedriver + 510148
+8   chromedriver                        0x0000000104c7e43c chromedriver + 4154428
+9   chromedriver                        0x0000000104c82ea0 chromedriver + 4173472
+10  chromedriver                        0x0000000104c63ff8 chromedriver + 4046840
+11  chromedriver                        0x0000000104c8378c chromedriver + 4175756
+12  chromedriver                        0x0000000104c56fb8 chromedriver + 3993528
+13  chromedriver                        0x0000000104ca121c chromedriver + 4297244
+14  chromedriver                        0x0000000104ca1398 chromedriver + 4297624
+15  chromedriver                        0x0000000104caef84 chromedriver + 4353924
+16  libsystem_pthread.dylib             0x000000018ab5af94 _pthread_start + 136
+17  libsystem_pthread.dylib             0x000000018ab55d34 thread_start + 8
+
